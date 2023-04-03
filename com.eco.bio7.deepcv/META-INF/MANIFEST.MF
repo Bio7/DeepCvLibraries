@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Deepcv
+Bundle-SymbolicName: com.eco.bio7.deepcv
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: ECO
+Automatic-Module-Name: com.eco.bio7.deepcv
+Bundle-RequiredExecutionEnvironment: JavaSE-17
