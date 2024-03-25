@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
       id="com.eco.bio7.deepcv.feature"
-      label="Feature"
+      label="Eclipse Deeplearning4J"
       version="1.0.0.qualifier"
       provider-name="ECO">
 
@@ -9,7 +9,7 @@
       The Eclipse Deeplearning4J (DL4J) ecosystem is a set of projects intended to support all the needs of a JVM based deep learning application. This means starting with the raw data, loading and preprocessing it from wherever and whatever format it is in to building and tuning a wide variety of simple and complex deep learning networks.
    </description>
 
-   <copyright url="http://www.example.com/copyright">
+   <license url="https://github.com/deeplearning4j/deeplearning4j/blob/master/LICENSE">
       Apache License
                            Version 2.0, January 2004
                         http://www.apache.org/licenses/
@@ -394,17 +394,20 @@ Codebase: deeplearning4j/deeplearning4j-nlp-parent/deeplearning4j-nlp-japanese/s
 Copyright (c) 2010-2015 Atilika Inc. and contributors. All rights reserved.
 
 Apache License, Version 2.0
-   </copyright>
-
-   <license url="http://www.example.com/license">
-      [Enter License Description here.]
    </license>
+
+   <requires>
+      <import plugin="org.eclipse.ui"/>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="org.eclipse.draw2d"/>
+   </requires>
 
    <plugin
          id="com.eco.bio7.deepcv"
+         os="win32"
+         arch="x86_64"
          download-size="0"
          install-size="0"
-         version="1.0.0.qualifier"
-         unpack="false"/>
+         version="1.0.0.qualifier"/>
 
 </feature>
